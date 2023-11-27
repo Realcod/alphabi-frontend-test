@@ -1,0 +1,13 @@
+import React from 'react';
+import styles from './CallToAction.module.css';
+
+const CallToAction = () => {
+  return (
+    <div className={styles.callToAction}>
+      <h2>Get started with Accenture</h2>
+      <button>Contact us</button>
+    </div>
+  );
+};
+
+export default CallToAction;
