@@ -1,0 +1,37 @@
+/* Global styles */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Hero section */
+
+.hero {
+  background-image: url('hero.jpg');
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  color: white;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size
